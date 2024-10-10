@@ -17,4 +17,4 @@ Este repositório contém o desenvolvimento do **Trabalho Efetivo Discente (TED)
 
 
 ## Licença
-Este projeto está licenciado sob a [inserir tipo de licença, como MIT].
+Este projeto está licenciado sob a [inserir tipo de licença, como MIT.
