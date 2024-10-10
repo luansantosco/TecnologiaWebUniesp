@@ -1,7 +1,7 @@
 # Trabalho Efetivo Discente (TED) - Uniesp 
 ### Disciplina Tecnologia Web 1 
 
-Este repositório contém o desenvolvimento do **Trabalho Efetivo Discente (TED)** realizado como parte das atividades acadêmicas na **Uniesp**. O objetivo deste projeto é aplicar os conhecimentos adquiridos em sala de aula, desenvolvendo habilidades práticas em [inserir área de estudo, como programação, engenharia, gestão etc.], com foco em [descrever o foco ou tema principal do TED, como um sistema específico, uma aplicação, ou uma pesquisa].
+Este repositório contém o desenvolvimento do **Trabalho Efetivo Discente (TED)** realizado como parte das atividades acadêmicas na **Uniesp**.
 
 ## Objetivos do Projeto
 - O aluno deve desenvolver interface web (HTML e CSS) do site modelo em anexo, apenas a primeira página, aplicando o conhecimento aprendido na disciplina.
