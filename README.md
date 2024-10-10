@@ -9,7 +9,8 @@ Este repositório contém o desenvolvimento do **Trabalho Efetivo Discente (TED)
  Em anexo segue imagens que o aluno precisará no decorrer do desenvolvimento do layout.
 
 ## Tecnologias Utilizadas
-- CSS3, HTML5
+- CSS3
+- HTML5
 
 ## Estrutura do Projeto
 - `assets/`: Pasta destinada ao armazenamento de imagens utilizadas no projeto.
