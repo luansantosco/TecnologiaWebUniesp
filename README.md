@@ -1,7 +1,9 @@
-# Trabalho Efetivo Discente (TED) - Uniesp 
-### Disciplina Tecnologia Web I
+# Trabalho Efetivo Discente (TED) - Uniesp
 
-Este repositório contém o desenvolvimento do **Trabalho Efetivo Discente (TED)** realizado como parte das atividades acadêmicas na **Uniesp**.
+Este projeto foi desenvolvido no **4º semestre** do curso de **Análise e Desenvolvimento de Sistemas**.
+
+### Disciplina: Tecnologia Web I
+A disciplina de **Tecnologia Web I** tem como objetivo ensinar os fundamentos do desenvolvimento web, explorando tecnologias como HTML, CSS, JavaScript e frameworks modernos. O foco do projeto é aplicar essas tecnologias na criação de soluções práticas e funcionais.
 
 ## Objetivos do Projeto
 - O aluno deve desenvolver interface web (HTML e CSS) do site modelo em anexo, apenas a primeira página, aplicando o conhecimento aprendido na disciplina.
