@@ -6,7 +6,9 @@ Este repositório contém o desenvolvimento do **Trabalho Efetivo Discente (TED)
 ## Objetivos do Projeto
 - O aluno deve desenvolver interface web (HTML e CSS) do site modelo em anexo, apenas a primeira página, aplicando o conhecimento aprendido na disciplina.
 - O projeto deve ser o mais fidedigno possível do layout do projeto.
- Em anexo segue imagens que o aluno precisará no decorrer do desenvolvimento do layout.
+
+![layout do projeto](https://github.com/luansantosco/TecnologiaWebUniesp/blob/main/Projeto.png)
+
 
 ## Tecnologias Utilizadas
 - CSS3
