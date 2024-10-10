@@ -1,5 +1,5 @@
 # Trabalho Efetivo Discente (TED) - Uniesp 
-### Disciplina Tecnologia Web 1 
+### Disciplina Tecnologia Web I
 
 Este repositório contém o desenvolvimento do **Trabalho Efetivo Discente (TED)** realizado como parte das atividades acadêmicas na **Uniesp**.
 
