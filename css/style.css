@@ -1,14 +1,7 @@
 /*
-
-Cor do body: #EBEBEB
-Cor do topo: #21272B
-Cor do quadro sobre a imagem: #1A3243
-
-Cor do texto azul do menu: #1BB4E8
-Cor do texto branco do menu: #FFFFFF
-
-Cor do texto Marron do quadro sobre a imagem: #C6B07F
-
+    Trabalho de curso Uniesp - 4 semestre
+    Disciplina Web I
+    Aluno: Luan dos Santos Rodrigues
 */
 
 :root {
@@ -17,14 +10,251 @@ Cor do texto Marron do quadro sobre a imagem: #C6B07F
     --color-quandro-imagem: #1A3243;
     --color-branco: #ffffff;
     --color-marrom: #C6B07F;
+    --color-menu: #1BB4E8;
+    --color-footer: #eaeaea;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background: var(--color-body);
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 74.4375rem;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 1.625rem;
+    background-color: var(--color-topo);
+}
+
+.header__container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 74.4375rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.header__tipo h2 {
+    color: var(--color-menu);
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 0.3125rem;
+}
+
+.header__tipo p {
+    margin-left: 0.3125rem;
+    font-size: 1.25em;
+    color: var(--color-branco);
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu a {
+    padding: 0.625rem 1.875rem;
+    color: var(--color-branco);
+    transition: all 0.2s linear;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+.header__menu li:not(:first-child) {
+    border-left: 1px solid var(--color-branco);
+}
+
+.header__menu a:hover {
+    color: var(--color-menu);
+}
+
+.header__menu [aria-current="page"] a {
+    color: var(--color-menu) !important;
+}
+
+.banner {
+    background-image: url("../assets/barcoprincipal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    padding-top: calc(100% / (980 / 495));
+    position: relative;
+    background-blend-mode: color-burn;
+}
+
+.banner__content {
+    position: absolute;
+    max-width: 37.0625rem;
+    padding: 2.5rem;
+    background-color: var(--color-quandro-imagem);
+    color: var(--color-branco);
+    right: 12%;
+    bottom: 30%;
+
+}
+
+.banner__title {
+    font-size: 2.25rem;
+    font-style: italic;
+    color: var(--color-branco);
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.banner__description {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.banner__caption {
+    color: var(--color-branco);
+    max-width: 23.75rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.banner__phone {
+    font-size: 1.25rem;
+    color: var(--color-marrom);
+}
+
+@media(max-width: 720px) {
+    .banner__title {
+        font-size: 1.5rem;
+    }
+    .header__container {
+        align-items: center;
+    }
+
+    .header__menu {
+        flex-direction: column;
+        align-items: self-start;
+        gap: 0.3125rem;
+    }
+
+    .header__menu li:not(:first-child) {
+        border-left: none;
+    }
+
+    .banner__content {
+        max-width: 30.06rem;
+        padding: 1.5rem;
+        right: 4%;
+        bottom: 20%;
+    }
+}
+
+/*Section Destinos */
+
+.destinos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.destinos article {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.destinos header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--color-branco);
+    padding: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.destinos h3 {
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgba(29, 33, 35, 1.000);
+}
+
+.destinos header p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.destinos__text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.destino__header {
+    background-color: var(--color-menu);
+}
+
+.frota__header {
+    background-color: var(--color-marrom);
+}
+
+.destinos__image {
+    height: calc(100% - 211px);
+    width: 100%;
+    object-fit: cover;
+}
+
+.frota__galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.frota__galeria img {
+    width: 100%;
+}
+
+@media(max-width: 720px) {
+    .destinos{
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+}
+
+footer {
+    padding: 2rem;
+    background-color: var(--color-footer);
 }

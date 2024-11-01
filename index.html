@@ -1,43 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxo Aluguel de iates</title>
     <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
 
-    <header role="topo">
-        <div>Logo</div>
-        <nav aria-label="Menu principal">
-            <ul>
-                <li aria-current="page"><a href="#">Página Inicial</a></li>
-                <li><a href="#">Aluguel de Iates</a></li>
-                <li><a href="#">Destinos</a></li>
-                <li><a href="#">Tripulação</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="./assets/barco1.png" alt="Logomarca Iate" />
+                <div class="header__tipo">
+                    <h2>Luxo</h2>
+                    <p>Aluguel de Iates</p>
+                </div>
+            </div>
+
+            <nav aria-label="Menu principal" role="navigation">
+                <ul class="header__menu">
+                    <li aria-current="page"><a href="#">Página
+                            Inicial</a></li>
+                    <li><a href="#">Aluguel de Iates</a></li>
+                    <li><a href="#">Destinos</a></li>
+                    <li><a href="#">Tripulação</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
+
 
     <section class="banner" aria-label="Promoção de aluguel de iates de luxo">
-        <article>
-            <h3>Você só encontra coisas boas, se combinar luxo e paixão.</h3>
-            
-            <figure>
-                <img src="./imagens/barco1.png" alt="Ícone de um barco de luxo">
-                <figcaption>Ligue agora para agendar as férias de sua vida.</figcaption>
-            </figure>
-            
-            <address>
-                Telefone: <a href="tel:+000800000000" aria-label="Número de telefone para reservas: (00) 8000-0000">(00) 8000-0000</a>
-            </address>
+        <article class="banner__content">
+            <h1 class="banner__title">Você só encontra coisas boas, se combinar luxo e paixão.</h1>
+
+            <div class="banner__description">
+                <figure class="banner__figure">
+                    <img src="./assets/barco1.png" alt="Ícone de um barco de luxo" class="banner__image" width="41"
+                        height="55">
+                </figure>
+
+                <address class="banner__caption">
+                    Ligue agora para agendar as férias de sua vida.
+                    <a href="tel:+000800000000" aria-label="Número de telefone para reservas: (00) 8000-0000"
+                        class="banner__phone">(00) 8000-0000</a>
+                </address>
+            </div>
         </article>
     </section>
-    
-    
-    
+
+    <section>
+        <div class="container">
+            <div class="destinos">
+                <article aria-labelledby="frotas_titulo">
+                    <header class="destino__header">
+                        <picture>
+                            <img src="./assets/destino.png" alt="Imagem de destino" />
+                        </picture>
+                        <p>Destinos</p>
+                    </header>
+                    <h3 id="frotas_titulo">Sou um título. Clique aqui para me editar.</h3>
+
+                    <p class="destinos__text">Clique aqui para adicionar seu texto e me editar. É fácill Basta clicar em
+                        "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo e mudar
+                        fontes.
+                        Sou um ótimo lugar para contar sua história e permitir que seus visitantes saibam um pouco mais
+                        sobre
+                        você.</p>
+                    <picture>
+                        <img src="./assets/barcodestino.jpg" alt="Imagem de um barco no destino" class="destinos__image"
+                            width="455" height="225" />
+                    </picture>
+                </article>
+
+                <article aria-labelledby="frotas_titulo">
+                    <header class="frota__header">
+                        <picture class="destinos__image-container">
+                            <img src="./assets/destino.png" alt="Imagem de destino" class="destinos__image" />
+                        </picture>
+                        <p>Nossa frota</p>
+                    </header>
+                    <h3 id="frotas_titulo" class="destinos__title">Sou um título. Clique aqui para me editar.</h3>
+                    <p class="destinos__text">Clique aqui para adicionar seu texto e me editar. É fácill Basta clicar em
+                        "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo e mudar
+                        fontes.
+                        Sou um ótimo lugar para contar sua história e permitir que seus visitantes saibam um pouco mais
+                        sobre
+                        você.</p>
+                    <div class="frota__galeria">
+                        <picture>
+                            <img src="./assets/barconossafrota2.jpg" alt="Imagem de um barco de luxo no mar" width="203"
+                                height="105" />
+                        </picture>
+
+                        <picture>
+                            <img src="./assets/barconossafrota1.jpg" alt="Imagem de um iate em águas cristalinas"
+                                width="203" height="105" />
+                        </picture>
+
+                        <picture>
+                            <img src="./assets/barconossafrota2.jpg" alt="Imagem de um barco de luxo no mar" width="203"
+                                height="105" />
+                        </picture>
+
+                        <picture>
+                            <img src="./assets/barconossafrota1.jpg" alt="Imagem de um iate em águas cristalinas"
+                                width="203" height="105" />
+                        </picture>
+
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 por Luxo aluguel de iates</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
